@@ -1,16 +1,37 @@
 [
   {
     "id": 1,
-    "name": "Healthy Food Recipe",
-    "image": "https://i.ibb.co/4nZPpTmQ/project-1.png",
-    "githubRepo": "https://github.com/sadik117/healthy-food-recipe-client-side",
-    "liveLink": "https://healthy-food-recipe-book.netlify.app/",
-    "description": "The Healthy Food Recipe Book is an interactive web application designed to inspire users with a variety of nutritious recipes. It allows users to browse, add, update, and delete recipes. Each recipe includes detailed ingredients, preparation steps, images, and like counts. The platform is ideal for home cooks, food bloggers, and anyone passionate about healthy eating.",
-    "projectLore": "The vision behind this project is to create a vibrant and user-friendly space where users can share and discover healthy recipes easily. In future updates, I plan to implement advanced filtering by category, nutrition facts display, and social sharing features. Enhancing the like system, introducing meal planning tools, and integrating user profiles for tracking personal recipe collections are also on the roadmap. These improvements will turn the Recipe Book into a comprehensive, health-focused culinary platform.",
-    "usedTechnology": ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Firebase Auth", "Framer Motion", "React Toastify"],
-    "lackings": ["Missing users profile showcase", "Limited personalization"],
-    "challenge": "A major challenge was implementing the like system in a way that prevented users from liking the same recipe multiple times. Managing this required checking user identity and recipe state while optimizing MongoDB queries. Ensuring real-time feedback without performance delays also pushed me to optimize my API design and client-side state management."
+    "name": "Kacha Bazar – Daily Price Tracker",
+    "image": "https://i.ibb.co.com/V0KzZWb7/Screenshot-2025-08-27-192005.png",
+    "githubRepo": "https://github.com/sadik117/kacha-bazar-tracker-client-side",
+    "liveLink": "https://kacha-bazar-tracker.netlify.app/",
+    "description": "Kacha Bazar is a full-stack MERN web app for tracking daily local market prices. Shoppers can compare prices, maintain a watchlist, view price-history charts, and place orders via Stripe. Vendors can add/update products and run ads, while admins approve listings and manage users and content with role-based dashboards.",
+    "projectLore": "I built Kacha Bazar to make everyday grocery shopping more transparent. The idea is to help users spot trends and save money while giving vendors simple tools to advertise responsibly. Next steps include richer market analytics, purchase insights by category, and localized experiences for different city markets.",
+    "usedTechnology": [
+      "React",
+      "Tailwind CSS",
+      "React Router",
+      "TanStack Query (React Query)",
+      "Recharts",
+      "Framer Motion",
+      "Lottie",
+      "SweetAlert2",
+      "React Toastify",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase Auth",
+      "Stripe",
+      "JWT"
+    ],
+    "lackings": [
+      "Limited market analytics dashboards",
+      "No multi-language/i18n",
+      "No offline/PWA support"
+    ],
+    "challenge": "Coordinating role-based access with JWT middleware across User, Vendor, and Admin dashboards while keeping secure Stripe checkout and accurate price-history visualizations in sync was the trickiest part. Ensuring the approval flow for products/ads didn’t block the vendor UX required careful API design and optimistic UI patterns."
   },
+
   {
     "id": 2,
     "name": "Virtual Book House",
@@ -19,8 +40,44 @@
     "liveLink": "https://virtual-book-house.netlify.app/",
     "description": "Virtual Book House is a dynamic MERN stack web application that allows users to manage and explore a digital bookshelf. Users can add books, write and edit reviews, track their reading status (Want-to-Read → Reading → Read), and upvote books by others. The platform fosters reading engagement and builds a social experience around books.",
     "projectLore": "My goal with Virtual Book House is to create a complete reading companion that not only helps users manage books but also engages them through community features like upvotes and reviews. In upcoming updates, I plan to add reading statistics visualizations, better review sorting, and optional reading reminders. These enhancements will create a more immersive and data-driven user experience.",
-    "usedTechnology": ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Firebase Auth", "Framer Motion", "React Toastify", "SweetAlert2"],
-    "lackings": ["Limited analytics", "Basic review sorting", "No dark mode toggle"],
+    "usedTechnology": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase Auth",
+      "Framer Motion",
+      "React Toastify",
+      "SweetAlert2"
+    ],
+    "lackings": [
+      "Limited analytics",
+      "Basic review sorting",
+      "No dark mode toggle"
+    ],
     "challenge": "The most complex feature was the reading tracker system. It required careful design to ensure users could only update their own books' statuses while maintaining real-time visual feedback. Balancing user permissions, accurate PATCH requests, and maintaining UI consistency across devices demanded thoughtful architecture and testing."
+  },
+
+  {
+    "id": 3,
+    "name": "Healthy Food Recipe",
+    "image": "https://i.ibb.co/4nZPpTmQ/project-1.png",
+    "githubRepo": "https://github.com/sadik117/healthy-food-recipe-client-side",
+    "liveLink": "https://healthy-food-recipe-book.netlify.app/",
+    "description": "The Healthy Food Recipe Book is an interactive web application designed to inspire users with a variety of nutritious recipes. It allows users to browse, add, update, and delete recipes. Each recipe includes detailed ingredients, preparation steps, images, and like counts. The platform is ideal for home cooks, food bloggers, and anyone passionate about healthy eating.",
+    "projectLore": "The vision behind this project is to create a vibrant and user-friendly space where users can share and discover healthy recipes easily. In future updates, I plan to implement advanced filtering by category, nutrition facts display, and social sharing features. Enhancing the like system, introducing meal planning tools, and integrating user profiles for tracking personal recipe collections are also on the roadmap. These improvements will turn the Recipe Book into a comprehensive, health-focused culinary platform.",
+    "usedTechnology": [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Firebase Auth",
+      "Framer Motion",
+      "React Toastify"
+    ],
+    "lackings": ["Missing users profile showcase", "Limited personalization"],
+    "challenge": "A major challenge was implementing the like system in a way that prevented users from liking the same recipe multiple times. Managing this required checking user identity and recipe state while optimizing MongoDB queries. Ensuring real-time feedback without performance delays also pushed me to optimize my API design and client-side state management."
   }
 ]
