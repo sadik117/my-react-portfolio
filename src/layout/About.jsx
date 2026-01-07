@@ -71,10 +71,10 @@ const About = () => {
             </h1>
             <ul className="list-disc md:text-base text-sm list-inside py-2">
               <li className="">
-                Frontend: HTML, CSS, Tailwind, JavaScript, React
+                Frontend: HTML, CSS, Tailwind, JavaScript, TypeScript, React, Nextjs
               </li>
-              <li className="">Backend: Node, Express, Firebase</li>
-              <li className="">Databases: MongoDB</li>
+              <li className="">Backend: Node, Express, Prisma, Firebase, BetterAuth</li>
+              <li className="">Databases: MongoDB, PostgreSQL</li>
             </ul>
 
             <h2 className="md:text-lg font-bold pt-3 md:pt-5 flex items-center gap-1">
