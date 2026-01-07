@@ -59,7 +59,7 @@ const About = () => {
             </h2>
             <h1 className="md:text-xl pt-1 md:pt-3 font-extrabold">
               I&apos;m <span className="gradient-text">Sadik</span>, a dedicated{" "}
-              <span className="gradient-text">Frontend Developer</span> with a
+              <span className="gradient-text">Fullstack Developer</span> with a
               passion for crafting responsive, engaging, and visually appealing
               web solutions. Currently pursuing a BSc. in Statistics at
               University of Rajshahi, I thrive on learning new technologies and
