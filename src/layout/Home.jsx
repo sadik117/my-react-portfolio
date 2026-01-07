@@ -15,6 +15,7 @@ import {
   FaNode,
   FaReact,
   FaSchool,
+  FaShieldAlt,
   FaTwitter,
   FaWhatsapp,
 } from "react-icons/fa";
@@ -25,7 +26,14 @@ import { GoArrowRight } from "react-icons/go";
 import { SparklesCore } from "../components/ui/sparkles";
 import { useContext, useEffect, useState } from "react";
 import { ThemeContext } from "../AssetsContext";
-import { SiMongodb } from "react-icons/si";
+import {
+  SiExpress,
+  SiMongodb,
+  SiNextdotjs,
+  SiPostgresql,
+  SiPrisma,
+  SiTypescript,
+} from "react-icons/si";
 import { BiLogoFirebase, BiSolidPhoneCall } from "react-icons/bi";
 import { FaLocationDot, FaRegCircleDot } from "react-icons/fa6";
 import { LuSend } from "react-icons/lu";
@@ -97,7 +105,12 @@ const Home = () => {
               </Cover>
             </h1>
             <p className="text-sm md:text-base py-2 md:py-3">
-              With a deep-rooted enthusiasm for web development, I bring a results-driven mindset and a strong work ethic to every project. I thrive in fast-paced environments, confidently managing multiple responsibilities while maintaining high-quality outcomes. My curiosity and adaptability fuel a continuous drive to learn emerging technologies.
+              With a deep-rooted enthusiasm for web development, I bring a
+              results-driven mindset and a strong work ethic to every project. I
+              thrive in fast-paced environments, confidently managing multiple
+              responsibilities while maintaining high-quality outcomes. My
+              curiosity and adaptability fuel a continuous drive to learn
+              emerging technologies.
             </p>
 
             <ul className="flex gap-2 py-1 md:py-5">
@@ -108,10 +121,7 @@ const Home = () => {
               </li>
 
               <li className="banner-list">
-                <a
-                  href="https://linkedin.com/in/sadiksourov11"
-                  target="_blank"
-                >
+                <a href="https://linkedin.com/in/sadiksourov11" target="_blank">
                   <FaLinkedin className="banner-list-a" />
                 </a>
               </li>
@@ -204,7 +214,13 @@ const Home = () => {
             </ul>
 
             <p className="font-normal md:text-base text-sm">
-              I provide a wide range of services including Frontend and Backend Development, Full Stack Development, App Development, Responsive Design, Error Resolution, Database Management, and Unit Testing. My core focus lies in transforming complex user needs into intuitive digital experiences through ethical and purposeful design — creating solutions that scale and foster meaningful connections across a global audience.
+              I provide a wide range of services including Frontend and Backend
+              Development, Full Stack Development, App Development, Responsive
+              Design, Error Resolution, Database Management, and Unit Testing.
+              My core focus lies in transforming complex user needs into
+              intuitive digital experiences through ethical and purposeful
+              design — creating solutions that scale and foster meaningful
+              connections across a global audience.
             </p>
 
             <Link
@@ -225,7 +241,10 @@ const Home = () => {
           Skills
         </h1>
         <p className="lg:w-2/4 mx-auto text-xs md:text-sm">
-          A reflection of my technical expertise and creative tools, this showcase represents my journey in mastering both technology and design. These skills are the foundation of my innovation, fueling inspired solutions and impactful results in every project I undertake.
+          A reflection of my technical expertise and creative tools, this
+          showcase represents my journey in mastering both technology and
+          design. These skills are the foundation of my innovation, fueling
+          inspired solutions and impactful results in every project I undertake.
         </p>
 
         <div className="h-[12rem] w-full bg-primary flex flex-col items-center justify-center overflow-hidden rounded-md">
@@ -289,6 +308,18 @@ const Home = () => {
 
           <section>
             <div
+              title="TypeScript"
+              className="text-[#3178C6] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#3178C6] to-[#3178C6] skill rounded-2xl md:scale-100 scale-75"
+            >
+              <SiTypescript className="bg-primary relative w-full rounded-2xl h-full p-5" />
+            </div>
+            <h2 className="text-center text-sm md:text-base font-semibold text-[#3178C6] pt-2">
+              TypeScript
+            </h2>
+          </section>
+
+          <section>
+            <div
               title="React"
               className="text-[#61DAFB] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#61DAFB] to-[#61DAFB]  skill rounded-2xl  md:scale-100 scale-75"
             >
@@ -301,13 +332,13 @@ const Home = () => {
 
           <section>
             <div
-              title="Firebase"
-              className="text-[#FFA000] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#FFA000] to-[#FFA000]  skill rounded-2xl  md:scale-100 scale-75"
+              title="Next.js"
+              className="dark:text-black p-[2px] w-20 h-20 before:bg-gradient-to-r from-gray-200 to-gray-400 skill rounded-2xl md:scale-100 scale-75"
             >
-              <BiLogoFirebase className="bg-primary relative w-full rounded-2xl  h-full p-5" />
+              <SiNextdotjs className="bg-primary relative w-full rounded-2xl h-full p-5" />
             </div>
-            <h2 className="text-center text-sm md:text-base font-semibold text-[#FFA000] pt-2">
-              Firebase
+            <h2 className="text-center text-sm md:text-base font-semibold pt-2">
+              Next.js
             </h2>
           </section>
 
@@ -326,6 +357,32 @@ const Home = () => {
 
           <section>
             <div
+              title="Express.js"
+              className="text-gray-800 dark:text-gray-200 p-[2px] w-20 h-20 
+    before:bg-gradient-to-r from-gray-500 to-gray-700 
+    skill rounded-2xl md:scale-100 scale-75"
+            >
+              <SiExpress className="bg-primary relative w-full rounded-2xl h-full p-5" />
+            </div>
+            <h2 className="text-center text-sm md:text-base font-semibold pt-2">
+              Express.js
+            </h2>
+          </section>
+
+          <section>
+            <div
+              title="Firebase"
+              className="text-[#FFA000] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#FFA000] to-[#FFA000]  skill rounded-2xl  md:scale-100 scale-75"
+            >
+              <BiLogoFirebase className="bg-primary relative w-full rounded-2xl  h-full p-5" />
+            </div>
+            <h2 className="text-center text-sm md:text-base font-semibold text-[#FFA000] pt-2">
+              Firebase
+            </h2>
+          </section>
+
+          <section>
+            <div
               title="MongoDB"
               className="text-[#47A248] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#47A248] to-[#47A248]  skill rounded-2xl  md:scale-100 scale-75"
             >
@@ -333,6 +390,30 @@ const Home = () => {
             </div>
             <h2 className="text-center text-sm md:text-base font-semibold text-[#47A248] pt-2">
               MongoBD
+            </h2>
+          </section>
+
+          <section>
+            <div
+              title="PostgreSQL"
+              className="text-[#336791] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#336791] to-[#336791] skill rounded-2xl md:scale-100 scale-75"
+            >
+              <SiPostgresql className="bg-primary relative w-full rounded-2xl h-full p-5" />
+            </div>
+            <h2 className="text-center text-sm md:text-base font-semibold text-[#336791] pt-2">
+              PostgreSQL
+            </h2>
+          </section>
+
+          <section>
+            <div
+              title="Prisma"
+              className="text-[#2D3748] dark:text-white p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#2D3748] to-[#4A5568] skill rounded-2xl md:scale-100 scale-75"
+            >
+              <SiPrisma className="bg-primary relative w-full rounded-2xl h-full p-5" />
+            </div>
+            <h2 className="text-center text-sm md:text-base font-semibold pt-2">
+              Prisma
             </h2>
           </section>
 
@@ -347,13 +428,25 @@ const Home = () => {
               Github
             </h2>
           </section>
+
+          <section>
+            <div
+              title="BetterAuth"
+              className="text-[#10B981] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#10B981] to-[#059669] skill rounded-2xl md:scale-100 scale-75"
+            >
+              <FaShieldAlt className="bg-primary relative w-full rounded-2xl h-full p-5" />
+            </div>
+            <h2 className="text-center text-sm md:text-base font-semibold text-[#10B981] pt-2">
+              BetterAuth
+            </h2>
+          </section>
         </section>
       </section>
 
       {/* Education */}
       <section className="lg:pt-32 pt-10 lg:px-20 text-center">
         <h1 className="md:text-3xl text-xl  relative font-bold  gradient-text py-8">
-         My Education Journey
+          My Education Journey
           <div className="w-10 absolute h-1 md:h-2 bg-gradient-bg"></div>
         </h1>
         <section className="grid lg:grid-cols-1 gap-10 justify-items-center">
@@ -375,7 +468,12 @@ const Home = () => {
               B.Sc in Statistics
             </p>
             <p className="pb-3 text-sm md:text-base">
-              Building a strong foundation in statistics and computer programming, with a focus on data analysis, algorithm development, and quantitative problem-solving. Actively engaging in tech clubs, coding and analytics competitions, and hands-on projects to enhance my technical proficiency and deepen my understanding of real-world data-driven solutions.
+              Building a strong foundation in statistics and computer
+              programming, with a focus on data analysis, algorithm development,
+              and quantitative problem-solving. Actively engaging in tech clubs,
+              coding and analytics competitions, and hands-on projects to
+              enhance my technical proficiency and deepen my understanding of
+              real-world data-driven solutions.
             </p>
 
             <h2 className="flex items-center gap-2 text-sm md:text-lg font-medium">
@@ -427,12 +525,16 @@ const Home = () => {
             </p>
 
             <p className="pb-3 text-sm md:text-base">
-              Dedicated to core science subjects, cultivating strong analytical thinking and a growing passion for technology. Engaged in science fairs and collaborative projects that encouraged teamwork, creativity, and innovative problem-solving.
+              Dedicated to core science subjects, cultivating strong analytical
+              thinking and a growing passion for technology. Engaged in science
+              fairs and collaborative projects that encouraged teamwork,
+              creativity, and innovative problem-solving.
             </p>
 
             <h2 className="flex items-center gap-2 text-sm md:text-lg font-medium">
               <FaRegCircleDot />
-              Major: <span className="font-normal text-xs md:text-base">Science</span>
+              Major:{" "}
+              <span className="font-normal text-xs md:text-base">Science</span>
             </h2>
             <h2 className="flex items-center my-1 gap-2 text-sm md:text-lg font-medium">
               <FaRegCircleDot />
@@ -471,12 +573,17 @@ const Home = () => {
             </p>
 
             <p className="pb-3 text-sm md:text-base">
-              Focused on core science subjects and laying the groundwork for analytical thinking and a keen interest in technology. Actively participated in science fairs and group projects, which fostered collaboration, creativity, and a spirit of innovation from an early stage.
+              Focused on core science subjects and laying the groundwork for
+              analytical thinking and a keen interest in technology. Actively
+              participated in science fairs and group projects, which fostered
+              collaboration, creativity, and a spirit of innovation from an
+              early stage.
             </p>
 
             <h2 className="flex items-center gap-2 text-sm md:text-lg font-medium">
               <FaRegCircleDot />
-              Major: <span className="font-normal text-xs md:text-base">Science</span>
+              Major:{" "}
+              <span className="font-normal text-xs md:text-base">Science</span>
             </h2>
             <h2 className="flex items-center my-1 gap-2 text-sm md:text-lg font-medium">
               <FaRegCircleDot />
@@ -504,7 +611,10 @@ const Home = () => {
           Projects
         </h1>
         <p className="lg:w-2/4 mx-auto text-xs md:text-sm">
-          A curated showcase of my work that blends creativity with functionality—highlighting interactive designs, seamless development, and innovative solutions tailored to deliver impactful user experiences.
+          A curated showcase of my work that blends creativity with
+          functionality—highlighting interactive designs, seamless development,
+          and innovative solutions tailored to deliver impactful user
+          experiences.
         </p>
         <section className="grid md:grid-cols-1 lg:grid-cols-2 gap-3 md:gap-10 py-5 md:py-10 justify-items-center">
           {projects.map((project) => (
@@ -527,7 +637,11 @@ const Home = () => {
               Let&apos;s Propagate Something Astonishing Together!
             </h1>
             <p className="md:text-base text-sm">
-              Thanks for visiting! If you have any questions, ideas, or would like to collaborate, don&apos;t hesitate to get in touch. You can reach me using the contact details below or simply fill out the quick form to send a message directly. I&apos;m looking forward to connecting and creating something amazing together!
+              Thanks for visiting! If you have any questions, ideas, or would
+              like to collaborate, don&apos;t hesitate to get in touch. You can
+              reach me using the contact details below or simply fill out the
+              quick form to send a message directly. I&apos;m looking forward to
+              connecting and creating something amazing together!
             </p>
             <h2 className="uppercase  font-medium md:text-xl pt-3 md:pt-5 pb-2 gradient-text">
               contact
@@ -583,10 +697,7 @@ const Home = () => {
               </li>
 
               <li className="banner-list">
-                <a
-                  href="https://linkedin.com/in/sadiksourov11"
-                  target="_blank"
-                >
+                <a href="https://linkedin.com/in/sadiksourov11" target="_blank">
                   <FaLinkedin className="banner-list-a" />
                 </a>
               </li>

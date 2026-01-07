@@ -1,9 +1,23 @@
-import { FaGitAlt, FaHtml5, FaJs, FaNode, FaReact } from "react-icons/fa";
+import {
+  FaGitAlt,
+  FaHtml5,
+  FaJs,
+  FaNode,
+  FaReact,
+  FaShieldAlt,
+} from "react-icons/fa";
 import { SparklesCore } from "../components/ui/sparkles";
 
 import { RiTailwindCssFill } from "react-icons/ri";
 
-import { SiMongodb } from "react-icons/si";
+import {
+  SiExpress,
+  SiMongodb,
+  SiNextdotjs,
+  SiPostgresql,
+  SiPrisma,
+  SiTypescript,
+} from "react-icons/si";
 import { BiLogoFirebase } from "react-icons/bi";
 import { useContext, useEffect } from "react";
 import { ThemeContext } from "../AssetsContext";
@@ -91,6 +105,18 @@ const Skill = () => {
 
         <section>
           <div
+            title="TypeScript"
+            className="text-[#3178C6] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#3178C6] to-[#3178C6] skill rounded-2xl md:scale-100 scale-75"
+          >
+            <SiTypescript className="bg-primary relative w-full rounded-2xl h-full p-5" />
+          </div>
+          <h2 className="text-center text-sm md:text-base font-semibold text-[#3178C6] pt-2">
+            TypeScript
+          </h2>
+        </section>
+
+        <section>
+          <div
             title="React"
             className="text-[#61DAFB] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#61DAFB] to-[#61DAFB]  skill rounded-2xl  md:scale-100 scale-75"
           >
@@ -103,13 +129,13 @@ const Skill = () => {
 
         <section>
           <div
-            title="Firebase"
-            className="text-[#FFA000] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#FFA000] to-[#FFA000]  skill rounded-2xl  md:scale-100 scale-75"
+            title="Next.js"
+            className="dark:text-black p-[2px] w-20 h-20 before:bg-gradient-to-r from-gray-200 to-gray-400 skill rounded-2xl md:scale-100 scale-75"
           >
-            <BiLogoFirebase className="bg-primary relative w-full rounded-2xl  h-full p-5" />
+            <SiNextdotjs className="bg-primary relative w-full rounded-2xl h-full p-5" />
           </div>
-          <h2 className="text-center text-sm md:text-base font-semibold text-[#FFA000] pt-2">
-            Firebase
+          <h2 className="text-center text-sm md:text-base font-semibold pt-2">
+            Next.js
           </h2>
         </section>
 
@@ -128,6 +154,32 @@ const Skill = () => {
 
         <section>
           <div
+            title="Express.js"
+            className="text-gray-800 dark:text-gray-200 p-[2px] w-20 h-20 
+    before:bg-gradient-to-r from-gray-500 to-gray-700 
+    skill rounded-2xl md:scale-100 scale-75"
+          >
+            <SiExpress className="bg-primary relative w-full rounded-2xl h-full p-5" />
+          </div>
+          <h2 className="text-center text-sm md:text-base font-semibold pt-2">
+            Express.js
+          </h2>
+        </section>
+
+        <section>
+          <div
+            title="Firebase"
+            className="text-[#FFA000] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#FFA000] to-[#FFA000]  skill rounded-2xl  md:scale-100 scale-75"
+          >
+            <BiLogoFirebase className="bg-primary relative w-full rounded-2xl  h-full p-5" />
+          </div>
+          <h2 className="text-center text-sm md:text-base font-semibold text-[#FFA000] pt-2">
+            Firebase
+          </h2>
+        </section>
+
+        <section>
+          <div
             title="MongoDB"
             className="text-[#47A248] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#47A248] to-[#47A248]  skill rounded-2xl  md:scale-100 scale-75"
           >
@@ -140,6 +192,30 @@ const Skill = () => {
 
         <section>
           <div
+            title="PostgreSQL"
+            className="text-[#336791] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#336791] to-[#336791] skill rounded-2xl md:scale-100 scale-75"
+          >
+            <SiPostgresql className="bg-primary relative w-full rounded-2xl h-full p-5" />
+          </div>
+          <h2 className="text-center text-sm md:text-base font-semibold text-[#336791] pt-2">
+            PostgreSQL
+          </h2>
+        </section>
+
+        <section>
+          <div
+            title="Prisma"
+            className="text-[#2D3748] dark:text-white p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#2D3748] to-[#4A5568] skill rounded-2xl md:scale-100 scale-75"
+          >
+            <SiPrisma className="bg-primary relative w-full rounded-2xl h-full p-5" />
+          </div>
+          <h2 className="text-center text-sm md:text-base font-semibold pt-2">
+            Prisma
+          </h2>
+        </section>
+
+        <section>
+          <div
             title="GitHub"
             className="text-[#F05033] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#F05033] to-[#F05033]  skill rounded-2xl   md:scale-100 scale-75"
           >
@@ -147,6 +223,18 @@ const Skill = () => {
           </div>
           <h2 className="text-center text-sm md:text-base font-semibold text-[#F05033] pt-2">
             Github
+          </h2>
+        </section>
+
+        <section>
+          <div
+            title="BetterAuth"
+            className="text-[#10B981] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#10B981] to-[#059669] skill rounded-2xl md:scale-100 scale-75"
+          >
+            <FaShieldAlt className="bg-primary relative w-full rounded-2xl h-full p-5" />
+          </div>
+          <h2 className="text-center text-sm md:text-base font-semibold text-[#10B981] pt-2">
+            BetterAuth
           </h2>
         </section>
       </section>
