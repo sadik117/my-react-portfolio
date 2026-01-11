@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import user from "../assets/user.jpeg";
+import user from "../assets/user.jpg";
 import { BackgroundBeamsWithCollision } from "../components/ui/background-beams-with-collision";
 import {
   MdMenuBook,

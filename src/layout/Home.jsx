@@ -1,5 +1,5 @@
 import { RiDownloadCloud2Line, RiTailwindCssFill } from "react-icons/ri";
-import userImg from "../assets/user.jpeg";
+import userImg from "../assets/user.jpg";
 import varsity from "../assets/varsity.webp";
 import hsc from "../assets/hsc.webp";
 import ssc from "../assets/ssc.webp";
