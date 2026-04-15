@@ -5,6 +5,7 @@ import hsc from "../assets/hsc.webp";
 import ssc from "../assets/ssc.webp";
 import { Cover } from "../components/ui/cover";
 import {
+  FaDocker,
   FaFacebook,
   FaGitAlt,
   FaGithub,
@@ -207,8 +208,8 @@ const Home = () => {
             </h1>
             <ul className="list-disc md:text-base text-sm list-inside py-3 md:py-5">
               <li>
-                Frontend: HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React,
-                Nextjs, Shadcn UI
+                Frontend: HTML, CSS, Tailwind CSS, JavaScript, TypeScript,
+                React, Nextjs, Shadcn UI
               </li>
               <li>Backend: Node, Express, Prisma, Firebase, BetterAuth</li>
               <li>Databases: MongoDB, PostgreSQL</li>
@@ -421,6 +422,18 @@ const Home = () => {
 
           <section>
             <div
+              title="Docker"
+              className="text-[#2496ED] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#2496ED] to-[#2496ED] skill rounded-2xl md:scale-100 scale-75"
+            >
+              <FaDocker className="bg-primary relative w-full rounded-2xl h-full p-5" />
+            </div>
+            <h2 className="text-center text-sm md:text-base font-semibold text-[#2496ED] pt-2">
+              Docker
+            </h2>
+          </section>
+
+          <section>
+            <div
               title="GitHub"
               className="text-[#F05033] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#F05033] to-[#F05033]  skill rounded-2xl   md:scale-100 scale-75"
             >
@@ -445,7 +458,6 @@ const Home = () => {
         </section>
       </section>
 
-      
       {/* Projects section */}
       <section className="lg:pt-20 pt-10 relative z-0 lg:px-20 text-center">
         <h1 className="md:text-3xl text-xl  font-bold mx-auto gradient-text py-2 md:py-5">

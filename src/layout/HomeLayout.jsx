@@ -12,7 +12,7 @@ const HomeLayout = () => {
       className="text-white"
     >
       <Helmet>
-        <title>Welcome Home | Sadik The Developer</title>
+        <title>Welcome Home || Sadik The Developer</title>
       </Helmet>
 
       {/* Spotlight Animation */}
@@ -22,7 +22,7 @@ const HomeLayout = () => {
       />
 
       {/* Hero Section */}
-      <div className="md:h-[40rem] h-[30rem] w-full bg-primary bg-grid-gray-500/[0.2] relative flex items-center justify-center">
+      <div className="md:h-[30rem] h-[24rem] w-full bg-primary bg-grid-gray-500/[0.2] relative flex items-center justify-center">
         {/* Radial Mask Overlay */}
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-primary [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 
@@ -35,7 +35,7 @@ const HomeLayout = () => {
           {/* CTA Button */}
           <Link
             to="/home"
-            className="btn bg-transparent hover:text-pColor px-[2px] py-[2px] explore-btn rounded-full mt-20 md:mt-35 h-max min-h-max border-none hover:border-none"
+            className="btn bg-transparent hover:text-pColor px-[2px] py-[2px] explore-btn rounded-full mt-16 md:mt-35 h-max min-h-max border-none hover:border-none"
           >
             <motion.span
               animate={{ y: [0, -5, 0] }}

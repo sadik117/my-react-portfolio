@@ -74,7 +74,7 @@
       "Recharts",
       "Framer Motion",
       "Lottie",
-      "SweetAlert2",
+      "SweetAlert",
       "React Toastify",
       "Node.js",
       "Express.js",
@@ -92,6 +92,32 @@
   },
   {
     "id": 4,
+    "name": "Learn and Fun – Interactive Learning Platform",
+    "image": "https://i.ibb.co.com/XfQMLYgD/Screenshot-2026-04-15-200254.png",
+    "githubRepo": "https://github.com/sadik117/learn-and-fun-client-side",
+    "liveLink": "https://learnandearned.vercel.app",
+    "description": "Learn and Fun is an interactive learning platform designed to make education engaging and accessible. The platform provides users with interactive courses intergrated with youtube videos. User can also play games and can earn rewards. It supports user authentication, progress tracking, and a comprehensive learning management system.",
+    "projectLore": "I built Learn and Fun to create an engaging educational platform that combines learning with interactive elements. The goal was to design a scalable system that makes learning fun and accessible to everyone. In future updates, I plan to add high gamification features, real-time collaboration, personalized learning paths, and advanced analytics for educators.",
+    "usedTechnology": [
+      "JavaScript",
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Framer Motion",
+      "React Toastify",
+      "SweetAlert"
+    ],
+    "lackings": [
+      "Limited gamification features",
+      "No advanced analytics dashboard",
+      "Offline learning support needed"
+    ],
+    "challenge": "The biggest challenge was designing a scalable content delivery system that handles various learning materials efficiently while maintaining an intuitive user experience. Implementing progress tracking across different course types and ensuring smooth state management required careful architectural planning."
+  },
+  {
+    "id": 5,
     "name": "Virtual Book House",
     "image": "https://i.ibb.co/h1nFsdNq/project-2.png",
     "githubRepo": "https://github.com/sadik117/virtual-book-house-client-side",
@@ -107,7 +133,7 @@
       "Firebase Auth",
       "Framer Motion",
       "React Toastify",
-      "SweetAlert2"
+      "SweetAlert"
     ],
     "lackings": [
       "Limited analytics",
@@ -117,7 +143,7 @@
     "challenge": "The most complex feature was the reading tracker system..."
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Healthy Food Recipe",
     "image": "https://i.ibb.co/4nZPpTmQ/project-1.png",
     "githubRepo": "https://github.com/sadik117/healthy-food-recipe-client-side",
