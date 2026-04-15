@@ -85,7 +85,7 @@ const Home = () => {
       className="w-10/12 mx-auto py-5 "
     >
       <Helmet>
-        <title>Home | Developer Sadik</title>
+        <title>Home || Developer Sadik</title>
       </Helmet>
       <div className=" w-full bg-primary  bg-dot-gray-500/50  relative flex items-center justify-center">
         {/* Radial gradient for the container to give a faded look */}
@@ -100,7 +100,7 @@ const Home = () => {
             <h1 className="text-2xl md:text-5xl pb-1 font-extrabold z-0">
               <Cover>
                 <span className="gradient-text">
-                  Professional Web Developer
+                  Professional Software Developer
                 </span>
               </Cover>
             </h1>
@@ -184,7 +184,7 @@ const Home = () => {
       </div>
 
       {/* About section */}
-      <section className="lg:pt-32 pt-10 lg:px-20">
+      <section className="lg:pt-20 pt-8 lg:px-20">
         <h1 className="md:text-3xl text-xl font-bold mx-auto gradient-text py-5">
           About Me
         </h1>
@@ -202,7 +202,7 @@ const Home = () => {
           </div>
           <div className="flex-1 font-medium">
             <h1 className="md:text-base text-sm">
-              I&apos;m Sadik Sourov, a professional web developer. I have
+              I&apos;m Sadik Sourov, a professional software developer. I have
               experience in various technologies including:
             </h1>
             <ul className="list-disc md:text-base text-sm list-inside py-3 md:py-5">
@@ -236,7 +236,7 @@ const Home = () => {
       </section>
 
       {/* Skill section */}
-      <section className="lg:pt-32 pt-10 lg:px-20 text-center">
+      <section className="lg:pt-20 pt-10 lg:px-16 text-center">
         <h1 className="md:text-3xl text-xl font-bold mx-auto gradient-text py-2 md:py-5">
           Skills
         </h1>
@@ -333,7 +333,7 @@ const Home = () => {
           <section>
             <div
               title="Next.js"
-              className="dark:text-black p-[2px] w-20 h-20 before:bg-gradient-to-r from-gray-200 to-gray-400 skill rounded-2xl md:scale-100 scale-75"
+              className="text-gray-800 dark:text-gray-200 p-[2px] w-20 h-20 before:bg-gradient-to-r from-gray-200 to-gray-400 skill rounded-2xl md:scale-100 scale-75"
             >
               <SiNextdotjs className="bg-primary relative w-full rounded-2xl h-full p-5" />
             </div>
@@ -443,8 +443,27 @@ const Home = () => {
         </section>
       </section>
 
+      
+      {/* Projects section */}
+      <section className="lg:pt-20 pt-10 relative z-0 lg:px-20 text-center">
+        <h1 className="md:text-3xl text-xl  font-bold mx-auto gradient-text py-2 md:py-5">
+          Projects
+        </h1>
+        <p className="lg:w-2/4 mx-auto text-xs md:text-sm">
+          A curated showcase of my work that blends creativity with
+          functionality—highlighting interactive designs, seamless development,
+          and innovative solutions tailored to deliver impactful user
+          experiences.
+        </p>
+        <section className="grid md:grid-cols-1 lg:grid-cols-2 gap-3 md:gap-10 py-5 md:py-10 justify-items-center">
+          {projects.map((project) => (
+            <ProjectCart key={project.id} project={project} />
+          ))}
+        </section>
+      </section>
+
       {/* Education */}
-      <section className="lg:pt-32 pt-10 lg:px-20 text-center">
+      <section className="lg:pt-20 pt-8 lg:px-20 text-center">
         <h1 className="md:text-3xl text-xl  relative font-bold  gradient-text py-8">
           My Education Journey
           <div className="w-10 absolute h-1 md:h-2 bg-gradient-bg"></div>
@@ -605,28 +624,10 @@ const Home = () => {
         </section>
       </section>
 
-      {/* Projects section */}
-      <section className="lg:pt-32 pt-10 relative z-0 lg:px-20 text-center">
-        <h1 className="md:text-3xl text-xl  font-bold mx-auto gradient-text py-2 md:py-5">
-          Projects
-        </h1>
-        <p className="lg:w-2/4 mx-auto text-xs md:text-sm">
-          A curated showcase of my work that blends creativity with
-          functionality—highlighting interactive designs, seamless development,
-          and innovative solutions tailored to deliver impactful user
-          experiences.
-        </p>
-        <section className="grid md:grid-cols-1 lg:grid-cols-2 gap-3 md:gap-10 py-5 md:py-10 justify-items-center">
-          {projects.map((project) => (
-            <ProjectCart key={project.id} project={project} />
-          ))}
-        </section>
-      </section>
-
       {/* Contact section */}
-      <section className="lg:pt-28 pt-10 lg:px-20 text-center">
+      <section className="lg:pt-20 pt-8 lg:px-20 text-center">
         <h1 className="md:text-3xl text-xl font-bold mx-auto gradient-text py-6 md:py-12">
-          Contact Me With O Hesitation
+          Contact Me
         </h1>
         <section className="flex lg:flex-row flex-col items-center gap-10 md:gap-20">
           <div className="lg:w-2/4 text-left">
