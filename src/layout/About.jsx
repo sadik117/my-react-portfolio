@@ -70,11 +70,13 @@ const About = () => {
               My Tech Toolbox:
             </h1>
             <ul className="list-disc md:text-base text-sm list-inside py-2">
-              <li className="">
-                Frontend: HTML, CSS, Tailwind, JavaScript, TypeScript, React, Nextjs
+              <li>
+                Frontend: HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React,
+                Nextjs, Shadcn UI
               </li>
-              <li className="">Backend: Node, Express, Prisma, Firebase, BetterAuth</li>
-              <li className="">Databases: MongoDB, PostgreSQL</li>
+              <li>Backend: Node, Express, Prisma, Firebase, BetterAuth</li>
+              <li>Databases: MongoDB, PostgreSQL</li>
+              <li>DevOps & Tools: Docker, Git, GitHub</li>
             </ul>
 
             <h2 className="md:text-lg font-bold pt-3 md:pt-5 flex items-center gap-1">

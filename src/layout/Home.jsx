@@ -206,11 +206,13 @@ const Home = () => {
               experience in various technologies including:
             </h1>
             <ul className="list-disc md:text-base text-sm list-inside py-3 md:py-5">
-              <li className="">
-                Frontend: HTML, CSS, Tailwind, JavaScript, TypeScript, React, Nextjs
+              <li>
+                Frontend: HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React,
+                Nextjs, Shadcn UI
               </li>
-              <li className="">Backend: Node, Express, Prisma, Firebase, BetterAuth</li>
-              <li className="">Databases: MongoDB, PostgreSQL</li>
+              <li>Backend: Node, Express, Prisma, Firebase, BetterAuth</li>
+              <li>Databases: MongoDB, PostgreSQL</li>
+              <li>DevOps & Tools: Docker, Git, GitHub</li>
             </ul>
 
             <p className="font-normal md:text-base text-sm">

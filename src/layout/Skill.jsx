@@ -1,4 +1,5 @@
 import {
+  FaDocker,
   FaGitAlt,
   FaHtml5,
   FaJs,
@@ -33,7 +34,7 @@ const Skill = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="md:pt-20 pt-10 w-10/12 mx-auto text-center"
+      className="md:pt-16 pt-8 mb-8 md:mb-4 w-10/12 mx-auto text-center"
     >
       <Helmet>
         <title>My Skills | Developer Sadik</title>
@@ -45,7 +46,7 @@ const Skill = () => {
         innovation in every project.
       </p>
       <div className="h-[12rem] w-full bg-primary flex flex-col items-center justify-center overflow-hidden rounded-md">
-        <div className="w-[40rem] h-40 relative">
+        <div className="w-[40rem] h-36 relative">
           {/* Gradients */}
           <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
           <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
@@ -130,7 +131,9 @@ const Skill = () => {
         <section>
           <div
             title="Next.js"
-            className="dark:text-black p-[2px] w-20 h-20 before:bg-gradient-to-r from-gray-200 to-gray-400 skill rounded-2xl md:scale-100 scale-75"
+            className="text-gray-800 dark:text-gray-200 p-[2px] w-20 h-20 
+    before:bg-gradient-to-r from-gray-500 to-gray-700 
+    skill rounded-2xl md:scale-100 scale-75"
           >
             <SiNextdotjs className="bg-primary relative w-full rounded-2xl h-full p-5" />
           </div>
@@ -211,6 +214,18 @@ const Skill = () => {
           </div>
           <h2 className="text-center text-sm md:text-base font-semibold pt-2">
             Prisma
+          </h2>
+        </section>
+
+        <section>
+          <div
+            title="Docker"
+            className="text-[#2496ED] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#2496ED] to-[#2496ED] skill rounded-2xl md:scale-100 scale-75"
+          >
+            <FaDocker className="bg-primary relative w-full rounded-2xl h-full p-5" />
+          </div>
+          <h2 className="text-center text-sm md:text-base font-semibold text-[#2496ED] pt-2">
+            Docker
           </h2>
         </section>
 
