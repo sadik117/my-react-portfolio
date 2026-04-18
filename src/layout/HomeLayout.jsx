@@ -27,7 +27,7 @@ const HomeLayout = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-primary [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 
         <h1 className="md:text-6xl text-4xl max-w-4xl px-4 mx-auto text-center font-bold flex flex-col items-center">
-          Life doesn't get better by chance, it gets better by change.{" "}
+          Life doesn't get better by chance, it gets better with change.{" "}
           <span className="text-xs md:text-sm pt-5">
             (Jim Rohn : American Author & Motivational Speaker)
           </span>

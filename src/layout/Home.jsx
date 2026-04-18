@@ -594,7 +594,7 @@ const Home = () => {
               alt="school image"
             />
             <h2 className="my-3 w-max text-sm md:text-base rounded-full px-5 font-bold border border-pColor/50 gradient-text">
-              2015 - 2023
+              2015 - 2020
             </h2>
             <h1 className="flex items-center gap-1 text-lg md:text-xl font-semibold">
               <FaSchool />
