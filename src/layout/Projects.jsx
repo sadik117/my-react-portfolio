@@ -34,11 +34,19 @@ const Projects = () => {
       </p>
       
     
-      <section className="grid relative md:grid-cols-1 lg:grid-cols-2 gap-3 md:gap-10 py-5 md:py-10 justify-items-center">
+      <motion.section
+        className="grid relative md:grid-cols-1 lg:grid-cols-2 gap-3 md:gap-10 py-5 md:py-10 justify-items-center"
+        initial="hidden"
+        animate="show"
+        variants={{
+          hidden: {},
+          show: { transition: { staggerChildren: 0.14, delayChildren: 0.1 } },
+        }}
+      >
         {projects.map((project) => (
           <ProjectCart key={project.id} project={project} />
         ))}
-      </section>
+      </motion.section>
      
     </motion.div>
   );
