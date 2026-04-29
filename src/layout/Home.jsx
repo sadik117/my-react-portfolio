@@ -88,13 +88,13 @@ const Home = () => {
       <Helmet>
         <title>Home || Developer Sadik</title>
       </Helmet>
-      <div className=" w-full bg-primary  bg-dot-gray-500/50  relative flex items-center justify-center">
+      <div className=" w-full bg-dot-gray-500/50  relative flex items-center justify-center">
         {/* Radial gradient for the container to give a faded look */}
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-primary [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 
         {/* Banner */}
-        <section className="flex  flex-col-reverse gap-4 lg:gap-0 lg:flex-row items-start justify-between relative">
-          <div className="lg:w-2/4  lg:pt-20 flex flex-col justify-center ">
+        <section className="flex flex-col-reverse gap-4 lg:gap-0 lg:flex-row items-start justify-between relative">
+          <div className="lg:w-2/4 lg:pt-20 flex flex-col justify-center ">
             <h1 className="md:text-2xl font-medium pb-2 ">
               Hi, I&apos;m Sadik
             </h1>
@@ -250,7 +250,7 @@ const Home = () => {
           inspired solutions and impactful results in every project I undertake.
         </p>
 
-        <div className="h-[12rem] w-full bg-primary flex flex-col items-center justify-center overflow-hidden rounded-md">
+        <div className="h-[12rem] mt-2 w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
           <div className="w-[40rem] h-40 relative">
             {/* Gradients */}
             <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />

@@ -45,7 +45,7 @@ const Skill = () => {
         in mastering technology and design. These skills drive my creativity and
         innovation in every project.
       </p>
-      <div className="h-[12rem] w-full bg-primary flex flex-col items-center justify-center overflow-hidden rounded-md">
+      <div className="h-[12rem] w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
         <div className="w-[40rem] h-36 relative">
           {/* Gradients */}
           <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />

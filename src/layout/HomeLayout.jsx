@@ -22,7 +22,7 @@ const HomeLayout = () => {
       />
 
       {/* Hero Section */}
-      <div className="md:h-[30rem] h-[24rem] w-full bg-primary bg-grid-gray-500/[0.2] relative flex items-center justify-center">
+      <div className="md:h-[30rem] h-[24rem] w-full bg-grid-gray-500/[0.2] relative flex items-center justify-center">
         {/* Radial Mask Overlay */}
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-primary [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 

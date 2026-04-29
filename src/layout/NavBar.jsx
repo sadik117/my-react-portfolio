@@ -19,7 +19,7 @@ const NavBar = () => {
 
 
   return (
-    <div className="bg-primary/60 relative z-50 backdrop-blur-sm">
+    <div className="relative z-50">
       <div className="navbar md:px-0 pr-4 md:w-10/12 mx-auto">
         <div className="navbar-start w-max flex-1">
           <div className="dropdown">

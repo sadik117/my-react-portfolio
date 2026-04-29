@@ -94,14 +94,12 @@ export default {
       
         },
         black: {
-          primary: '#000000',
-          secondary: '#1a1a1a',
+          primary: '#080612',
+          secondary: '#110d22',
           accent: '#8636ff',
           neutral: '#ffffff',
-          'base-100': '#000000',
-          'base-300': '#fc2f98', 
-       
-         
+          'base-100': '#080612',
+          'base-300': '#fc2f98',
         },
       },
     ],
