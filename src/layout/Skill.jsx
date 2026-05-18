@@ -18,6 +18,8 @@ import {
   SiPostgresql,
   SiPrisma,
   SiTypescript,
+  SiRedis,
+  SiGo,
 } from "react-icons/si";
 import { BiLogoFirebase } from "react-icons/bi";
 import { useContext, useEffect } from "react";
@@ -113,6 +115,18 @@ const Skill = () => {
           </div>
           <h2 className="text-center text-sm md:text-base font-semibold text-[#3178C6] pt-2">
             TypeScript
+          </h2>
+        </section>
+
+        <section>
+          <div
+            title="Golang"
+            className="text-[#00ADD8] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#00ADD8] to-[#00ADD8] skill rounded-2xl md:scale-100 scale-75"
+          >
+            <SiGo className="bg-primary relative w-full rounded-2xl h-full p-5" />
+          </div>
+          <h2 className="text-center text-sm md:text-base font-semibold text-[#00ADD8] pt-2">
+            Golang
           </h2>
         </section>
 
@@ -214,6 +228,18 @@ const Skill = () => {
           </div>
           <h2 className="text-center text-sm md:text-base font-semibold pt-2">
             Prisma
+          </h2>
+        </section>
+
+        <section>
+          <div
+            title="Redis"
+            className="text-[#DC382D] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#DC382D] to-[#DC382D] skill rounded-2xl md:scale-100 scale-75"
+          >
+            <SiRedis className="bg-primary relative w-full rounded-2xl h-full p-5" />
+          </div>
+          <h2 className="text-center text-sm md:text-base font-semibold text-[#DC382D] pt-2">
+            Redis
           </h2>
         </section>
 
