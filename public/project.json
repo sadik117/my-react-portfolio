@@ -31,6 +31,39 @@
   },
   {
     "id": 2,
+    "name": "WanderMind – AI Travel Planner",
+    "image": "https://i.ibb.co.com/LDZ0L5rZ/Screenshot-2026-05-18-223917.png",
+    "githubRepo": "https://github.com/sadik117/STN-AI-Driven-WanderMind-Project",
+    "liveLink": "https://wandermind-client.vercel.app",
+    "description": "WanderMind is a full-stack, AI-driven travel platform that helps travelers plan smarter trips. From AI-generated itineraries and smart packing lists to budget breakdowns and journal summaries — WanderMind is your intelligent travel companion.",
+    "projectLore": "I built WanderMind to master the integration of AI models into full-stack applications and handle real-time communication. The goal was to create an intelligent travel companion that not only helps in planning but also enhances the travel experience through real-time updates and smart recommendations. This project allowed me to dive deep into structured AI outputs, Redis caching, and full-stack architecture.",
+    "usedTechnology": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "Prisma ORM",
+      "PostgreSQL",
+      "Redis",
+      "OpenAI",
+      "Zustand",
+      "TanStack Query",
+      "Zod Validation",
+      "BullMQ",
+      "Cloudinary",
+      "Shadcn UI"
+    ],
+    "lackings": [
+      "No integrated payment gateway for experience bookings yet",
+      "No offline mode for viewing itineraries and packing lists",
+      "Social sharing features for journal entries are not yet implemented"
+    ],
+    "challenge": "The biggest challenge was implementing real-time features with Socket.io on a platform that supports persistent WebSockets, which led to deploying the backend on Render as a Web Service instead of a serverless platform. Additionally, ensuring structured and reliable JSON responses from the AI features (GPT-4o-mini) required careful prompt engineering and validation."
+  },
+  {
+    "id": 3,
     "name": "SkillBridge – Tutor Booking Platform",
     "image": "https://i.ibb.co.com/gbJjfRhK/Screenshot-2026-02-20-003237.png",
     "githubRepo": "https://github.com/sadik117/L2-A4-skillbridge-frontend",
@@ -59,7 +92,38 @@
     "challenge": "The biggest challenge was implementing the availability and booking system without double-booking issues. Managing relational data between users, tutor profiles, and availability slots while ensuring secure authentication and proper role-based routing required careful backend and middleware design."
   },
   {
-    "id": 3,
+    "id": 4,
+    "name": "ChatSphere – Live Chatting Platform",
+    "image": "https://i.ibb.co.com/0j4yJKy4/Screenshot-2026-05-18-223510.png",
+    "githubRepo": "https://github.com/sadik117/sadik117-live-chatting-platform",
+    "liveLink": "https://chat-sphere-u7lz.onrender.com",
+    "description": "ChatSphere is a fully-featured, full-stack live chatting application. It brings people together through real-time public rooms, secure private rooms, and direct one-to-one messaging. It features an elegant, fully responsive UI, robust session management, and a highly scalable backend architecture.",
+    "projectLore": "I built ChatSphere to master real-time communication and containerized deployments. The goal was to create a scalable chat platform that supports low-latency messaging across various room types. In future updates, I plan to add file sharing (images and documents), voice/video calls, and end-to-end encryption for direct messages.",
+    "usedTechnology": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "Prisma ORM",
+      "PostgreSQL",
+      "Redis",
+      "Zustand",
+      "TanStack Query",
+      "Zod Validation",
+      "Docker",
+      "Shadcn UI"
+    ],
+    "lackings": [
+      "No file sharing support yet",
+      "No voice or video calling features",
+      "Limited message search functionality"
+    ],
+    "challenge": "The biggest challenge was implementing low-latency real-time message synchronization while handling complex room types (public, private, and direct). Managing active user sessions with Redis and ensuring robust session hydration on page refreshes required careful coordination between the Next.js frontend and the Express/Socket.io backend."
+  },
+  {
+    "id": 5,
     "name": "Kacha Bazar – Daily Price Tracker",
     "image": "https://i.ibb.co.com/V0KzZWb7/Screenshot-2025-08-27-192005.png",
     "githubRepo": "https://github.com/sadik117/kacha-bazar-tracker-client-side",
@@ -91,33 +155,7 @@
     "challenge": "Coordinating role-based access with JWT middleware..."
   },
   {
-    "id": 4,
-    "name": "Learn and Earn – Learning Platform",
-    "image": "https://i.ibb.co.com/XfQMLYgD/Screenshot-2026-04-15-200254.png",
-    "githubRepo": "https://github.com/sadik117/learn-and-fun-client-side",
-    "liveLink": "https://learnandearned.vercel.app",
-    "description": "Learn and Fun is an interactive learning platform designed to make education engaging and accessible. The platform provides users with interactive courses intergrated with youtube videos. User can also play games and can earn rewards. It supports user authentication, progress tracking, and a comprehensive learning management system.",
-    "projectLore": "I built Learn and Fun to create an engaging educational platform that combines learning with interactive elements. The goal was to design a scalable system that makes learning fun and accessible to everyone. In future updates, I plan to add high gamification features, real-time collaboration, personalized learning paths, and advanced analytics for educators.",
-    "usedTechnology": [
-      "JavaScript",
-      "React",
-      "Tailwind CSS",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Framer Motion",
-      "React Toastify",
-      "SweetAlert"
-    ],
-    "lackings": [
-      "Limited gamification features",
-      "No advanced analytics dashboard",
-      "Offline learning support needed"
-    ],
-    "challenge": "The biggest challenge was designing a scalable content delivery system that handles various learning materials efficiently while maintaining an intuitive user experience. Implementing progress tracking across different course types and ensuring smooth state management required careful architectural planning."
-  },
-  {
-    "id": 5,
+    "id": 6,
     "name": "Virtual Book House",
     "image": "https://i.ibb.co/h1nFsdNq/project-2.png",
     "githubRepo": "https://github.com/sadik117/virtual-book-house-client-side",
@@ -141,29 +179,5 @@
       "No dark mode toggle"
     ],
     "challenge": "The most complex feature was the reading tracker system..."
-  },
-  {
-    "id": 6,
-    "name": "Healthy Food Recipe",
-    "image": "https://i.ibb.co/4nZPpTmQ/project-1.png",
-    "githubRepo": "https://github.com/sadik117/healthy-food-recipe-client-side",
-    "liveLink": "https://healthy-food-recipe-book.netlify.app/",
-    "description": "The Healthy Food Recipe Book is an interactive web application...",
-    "projectLore": "The vision behind this project is to create a vibrant...",
-    "usedTechnology": [
-      "React",
-      "Tailwind CSS",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Firebase Auth",
-      "Framer Motion",
-      "React Toastify"
-    ],
-    "lackings": [
-      "Missing users profile showcase",
-      "Limited personalization"
-    ],
-    "challenge": "A major challenge was implementing the like system..."
   }
 ]
