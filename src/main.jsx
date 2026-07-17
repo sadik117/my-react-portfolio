@@ -7,7 +7,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import HomeLayout from "./layout/HomeLayout.jsx";
 import About from "./layout/About.jsx";
-import Skill from "./layout/Skill.jsx";
 import Contact from "./layout/Contact.jsx";
 
 import AssetsContext from "./AssetsContext.jsx";
@@ -16,6 +15,7 @@ import ProjectDetails from "./layout/ProjectDetails.jsx";
 import ErrorPage from "./layout/ErrorPage.jsx";
 import { HelmetProvider } from "react-helmet-async";
 import Projects from "./layout/Projects.jsx";
+import Skill from "./layout/Skill.jsx";
 
 const router = createBrowserRouter([
   {

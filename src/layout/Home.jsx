@@ -29,11 +29,11 @@ import { useContext, useEffect, useState } from "react";
 import { ThemeContext } from "../AssetsContext";
 import {
     SiExpress,
-    SiGo,
     SiMongodb,
     SiNextdotjs,
     SiPostgresql,
     SiPrisma,
+    SiPython,
     SiRedis,
     SiTypescript,
 } from "react-icons/si";
@@ -333,7 +333,7 @@ const Home = () => {
                                 Frontend: HTML, CSS, Tailwind CSS, JavaScript, TypeScript,
                                 React, Nextjs, Shadcn UI, Zustand
                             </li>
-                            <li>Backend: Golang, Node, Express, Prisma, Redis, Firebase, BetterAuth</li>
+                            <li>Backend: Node, Express, Prisma, Redis, Firebase, BetterAuth</li>
                             <li>Databases: MongoDB, PostgreSQL</li>
                             <li>DevOps & Tools: Docker, Git, GitHub</li>
                         </motion.ul>
@@ -417,7 +417,7 @@ const Home = () => {
                         { title: "Tailwind CSS", Icon: RiTailwindCssFill, color: "#38BDF8", name: "Tailwind" },
                         { title: "JavaScript", Icon: FaJs, color: "#F7DF1E", name: "JavaScript" },
                         { title: "TypeScript", Icon: SiTypescript, color: "#3178C6", name: "TypeScript" },
-                        { title: "Golang", Icon: SiGo, color: "#00ADD8", name: "Golang" },
+                        { title: "Python", Icon: SiPython, color: "#80eb34", name: "Python" },
                         { title: "React", Icon: FaReact, color: "#61DAFB", name: "React" },
                         { title: "Next.js", Icon: SiNextdotjs, color: "gray", name: "Next.js", customColor: true },
                         { title: "Node JS", Icon: FaNode, color: "#339933", name: "Node JS" },
@@ -506,12 +506,12 @@ const Home = () => {
                             img: varsity,
                             period: "Present",
                             title: "University of Rajshahi",
-                            degree: "B.Sc in Statistics",
+                            degree: "B.Sc in Statistics and Data Science",
                             description: "Building a strong foundation in statistics and computer programming, with a focus on data analysis, algorithm development, and quantitative problem-solving. Actively engaging in tech clubs, coding and analytics competitions, and hands-on projects to enhance my technical proficiency and deepen my understanding of real-world data-driven solutions.",
-                            coursework: "Programming, Data Science",
+                            coursework: "Programming, Data Science, Statistics",
                             activities: [
-                                "Member of the Tech Club",
-                                "Participated in Coding Competitions",
+                                "Member of the Tech Data Science and Machine Learning Club",
+                                "Participated in Coding and Data Science Competitions",
                                 "Developed small projects showcasing practical applications"
                             ]
                         },

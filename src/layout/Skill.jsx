@@ -19,7 +19,7 @@ import {
   SiPrisma,
   SiTypescript,
   SiRedis,
-  SiGo,
+  SiPython,
 } from "react-icons/si";
 import { BiLogoFirebase } from "react-icons/bi";
 import { useContext, useEffect } from "react";
@@ -120,13 +120,13 @@ const Skill = () => {
 
         <section>
           <div
-            title="Golang"
-            className="text-[#00ADD8] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#00ADD8] to-[#00ADD8] skill rounded-2xl md:scale-100 scale-75"
+            title="Python"
+            className="text-[#80eb34] p-[2px] w-20 h-20 before:bg-gradient-to-r from-[#80eb34] to-[#80eb34] skill rounded-2xl md:scale-100 scale-75"
           >
-            <SiGo className="bg-primary relative w-full rounded-2xl h-full p-5" />
+            <SiPython className="bg-primary relative w-full rounded-2xl h-full p-5" />
           </div>
-          <h2 className="text-center text-sm md:text-base font-semibold text-[#00ADD8] pt-2">
-            Golang
+          <h2 className="text-center text-sm md:text-base font-semibold text-[#80eb34] pt-2">
+            Python
           </h2>
         </section>
 
